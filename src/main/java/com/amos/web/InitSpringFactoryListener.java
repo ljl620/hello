@@ -1,10 +1,11 @@
 package com.amos.web;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class InitSpringFactoryListener implements ServletContextListener {
 	public InitSpringFactoryListener() {
 	}
